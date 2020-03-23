@@ -1,0 +1,5 @@
+username: "user_name"
+client_id: "xxxe4ed110f6"           #https://developer.spotify.com/dashboard/
+client_secret: "xxxf3bf23e5bb2"     #https://developer.spotify.com/dashboard/
+playlist_id: "xxxzuW9"                 #share spotify playlist (Copy spotify URI)
+redirect_uri: "https://localhost:8080"                #change redirect uri on https://developer.spotify.com/dashboard/ to localhost...
