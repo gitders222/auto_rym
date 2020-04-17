@@ -30,7 +30,7 @@ def get_song(url):
 	    temp = link.get('href')
 	    if temp != None:
 	        if type_list:
-	            if (('/release/album/' in temp) or ('/release/ep/' in temp) or ('/release/single/' in temp)): #!= ('?' in temp):
+	            if (('/release/album/' in temp) or ('/release/comp/' in temp) or ('/release/ep/' in temp) or ('/release/single/' in temp)): #!= ('?' in temp):
 	                #print('temp', temp)
 	                alb_split = temp.split('/')
 	                alb_split[3] = filter(alb_split[3])
